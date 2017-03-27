@@ -1,0 +1,159 @@
+h1, h2, h3, h4, h5, h6 {
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    font-family: 'Open Sans Condensed', sans-serif;
+
+}
+.center-align{
+    padding-top: 20px;
+}
+
+.test {
+    width: 20px;
+    height: 500px;
+    background: orangered;
+}
+
+.site-footer {
+    background: #182740;
+    color: #fff;
+}
+
+.site-footer a {
+    color: #fff;
+}
+.hello-zilla .button{
+    display: inline-block;
+    padding: 0 55px;
+    background: #F7931A;
+    color: #fff;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 66px;
+    font-size: 22px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.05);
+
+}
+.img-responsive{
+    width: 32px;
+    margin-right: 14px;
+}
+
+
+input[type="text"].my-input {
+    background: #fff;
+    padding: 0 5px;
+    border-bottom: none;
+    color: #222;
+    box-sizing: border-box;
+}
+input[type="text"].my-input:focus {
+    border-bottom: none;
+    box-shadow: none;
+}
+.header-right button{
+    border: 1px solid #F7931A;
+    padding: 20px 15px;
+    margin-left: 5px;
+    line-height: 0;
+    display: inline-block;
+    background-color: #182740;
+}
+
+.go {
+    background: orange;
+    font-weight: bold;
+    border: none;
+    position: absolute;
+    right: 3px;
+    top: 5px;
+    padding: 6px;
+}
+
+div.input {
+    position: relative;
+}
+.my-ads {
+    min-height: 190px;
+    background: #0D3F96;
+}
+.zilla {
+    height: 190px;
+    background: url(../images/coinzilla-join-us.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.footer-block h4{
+    font-size: 20px;
+}
+
+.main-art h2 {
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.main-art p {
+    margin: 3px 0;
+}
+
+.utp {
+    background-color: #182740;
+    padding: 40px 0;
+}
+.hello-zilla {
+    background-image: url(../images/coinzilla-hello.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 10% 50%;
+}
+.header-left{
+    padding-top: 10px;
+}
+
+.my-utp {
+    padding: 30px 0;
+    font-size: 42px;
+    line-height: 60px;
+    color: #FFF;
+    padding: 25px;
+    text-align: center;
+}
+
+.mb100{
+    margin-bottom:-100px;
+}
+
+
+header {
+    background-color: #182740;
+    padding: 10px 0;
+    color: #fff;
+}
+
+.logo {
+    width: 115px;
+}
+
+.main-nav li {
+    float: left;
+    padding-left: 0;
+    padding-right: 30px;
+
+}
+.main-nav {
+    margin: 0;
+    padding-top: 5px;
+}
+
+@media screen and (max-width: 600px) {
+    .hello-zilla {
+        background-image: none;
+    }
+    body{
+        min-width: 533px;
+    }
+}
